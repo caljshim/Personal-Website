@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Shim</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+<body id="homebody">
+    <div class="page">
+        <div id="tab">
+            <h1 class="calebshim">Caleb<br>Shim.</h1>
+            <div class="tabcontainer">
+                <button class="tablinks" onclick="loadTab('home.html')">Home</button>
+                <button class="tablinks" onclick="loadTab('portfolio.html')">Portfolio</button>
+                <button class="tablinks active" onclick="loadTab('about.html')">About</button>
+                <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+                <img onclick="clickMenu()" id="menubtn" src="images/menu.png">
+            </div>
+        </div>
+
+        <div id="home" class="tabcontent" style="display: block">
+            <div class="aboutcontainer">
+                <div class="tophalf">
+                    <h1 class="hello">Hello!</h1>
+                    <img id="hand" src="images/five1.png">
+                    <p style="font-weight: bold;"class="aboutdescription">
+                        My name is Caleb, and I'm a Computer Science student at Southern Adventist University.
+                        <br>
+                        <p class="aboutdescription">
+                        During my time in undergrad, I've learned that coding isn't just about languages but also hardwork and persistence.
+                        Whenever I find myself getting stuck in my code, I try to approach it in as many ways that I can think of, always reminding myself that the solution exists. I just haven't found it yet.
+                        <br><br>
+                        I may not know everything there is to know about coding just yet, but I'm a quick learner and would love to get my hands on your projects.
+                        <br><br>
+                        When I'm not working on a project or grinding LeetCode problems, I enjoy playing basketball, hanging out with my friends, and butchering YouTube cooking recipes. You can also find me missing the fairway at your local golf course.
+                        <br><br>
+                        If you're interested in contacting me, please don't hesitate to shoot me an email at caljshim@gmail.com.
+                        <br><br>
+                        </p>
+                    </p>
+                    <hr class="line">
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/in/caleb-shim-877668250/" target="_blank">
+                            <img src="images/linkedin.png" class="socialsicon">
+                        </a>
+                        <a href="https://github.com/caljshim" target="_blank">
+                            <img src="images/github.png" class="socialsicon">
+                        </a>
+                    </div>
+                </div>
+                <div class="bottomhalf">
+                    <img src="images/calebandfriends.png" id="aboutimg">
+                </div>
+            </div>
+            <div style="background-color: #5B5F97; padding-left: 35px; padding-bottom: 20px; padding-top: 30px;"><a style="font-family: 'Nunito'; color: #7276AF;" target="_blank" href="https://www.flaticon.com/free-icons/hands" title="hands icons">Hands icons created by Kalashnyk - Flaticon</a></div>
+        </div>
+        <div id="menupanel">
+            <button class="tablinks" onclick="loadTab('home.html')">Home</button>
+            <button class="tablinks" onclick="loadTab('portfolio.html')">Portfolio</button>
+            <button class="tablinks active" onclick="loadTab('about.html')">About</button>
+            <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="changeTabBar.js"></script>
+    <script src="toggleMenuButton.js"></script>
+</body>
+</html>
+
+<!--<a href="https://www.flaticon.com/free-icons/hello" title="hello icons">Hello icons created by Vitaly Gorbachev - Flaticon</a>-->

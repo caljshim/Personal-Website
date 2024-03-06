@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Shim</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <script src="script.js"></script>
+</head>
+<body id="homebody">
+    <div class="page">
+        <div id="tab">
+            <h1 class="calebshim">Caleb<br>Shim.</h1>
+            <div class="tabcontainer">
+                <button class="tablinks active" onclick="loadTab('home.html')">Home</button>
+                <button class="tablinks" onclick="loadTab('portfolio.html')">Portfolio</button>
+                <button class="tablinks" onclick="loadTab('about.html')">About</button>
+                <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+                <img onclick="clickMenu()" id="menubtn" src="images/menu.png">
+            </div>
+        </div>
+
+        <div id="home" class="tabcontent" style="display: block">
+            <div class="container">
+                <div class="leftside">
+                    <img src="images/caleb-home-1.JPG" class="selfportrait">
+                </div>
+                <div class="rightside">
+                    <h1 class="falling-text">Caleb Shim.</h1>
+                    <p class="personal-description">
+                        An aspiring software engineer.
+                        <br>I'm eager to commit my strong work ethic and passion to your projects.
+                        <br><br><br><br>
+                    </p>
+                    <button id="homeportfoliobutton" onclick="loadTab('portfolio.html')">View Portfolio</button>
+                </div>
+            </div>
+            <div id="menupanel">
+                <button class="tablinks active" onclick="loadTab('home.html')">Home</button>
+                <button class="tablinks" onclick="loadTab('portfolio.html')">Portfolio</button>
+                <button class="tablinks" onclick="loadTab('about.html')">About</button>
+                <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+            </div>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="toggleMenuButton.js"></script>
+    </div>
+</body>
+</html>

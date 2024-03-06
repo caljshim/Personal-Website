@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Shim</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+<body style="margin:0; padding:0;">
+
+    <div class="page">
+        <div id="tab">
+            <h1 class="calebshim">Caleb<br>Shim.</h1>
+            <div class="tabcontainer">
+                <button class="tablinks" onclick="loadTab('home.html')">Home</button>
+                <button class="tablinks active" onclick="loadTab('portfolio.html')">Portfolio</button>
+                <button class="tablinks" onclick="loadTab('about.html')">About</button>
+                <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+                <img onclick="clickMenu()" id="menubtn" src="images/menu.png">
+            </div>
+        </div>
+
+        <div id="home" class="tabcontent" style="display: block">
+            <div class="portfolioheader">
+                <h1 style="font-family: 'Bodoni'; font-size: 50px; color:white;">Portfolio</h1>
+                <p style="font-family: 'Nunito'; font-size: 18px; color:white;">Personal and school projects.</p>
+            </div>
+            <div class="projectscontainer">
+                <div class="project">
+                    <iframe class="video" src="https://www.youtube.com/embed/5ss_IqMD4pE?si=WyN-sEXYfWfWDLv2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="titlecontainer">
+                        <h1 class="projecttitle">Anagrams Game</h1>
+                        <p class="projectdesc">A robust word game coded in C++, which enables players to test their word skills in real-time.</p>
+                        <ul class ="projectlist">
+                            <li>Integrated 2-player multiplayer capability using a reliable TCP connection, ensuring smooth and synchronous 
+                                gameplay experience.
+                            </li>
+                            <li>Implemented an open-source dictionary for word verification.</li>
+                            <li>Designed a comprehensive game functionality that includes:
+                                Real-time score tracking and word tracking, time rounds, and an intuitive user interface.
+                            </li>
+                            <li>Implemented error-handling mechanisms to manage potential disconnects or data transmission issues over the network.</li>
+                        </ul>
+                    </div>
+                    <div class="date">Fall 2023</div>
+                </div>
+                <div class="project">
+                    <iframe class="video" src="https://www.youtube.com/embed/vXMQI88lOqY?si=0UNjNzQ3w1biBPbt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="titlecontainer">
+                        <h1 class="projecttitle">Hotel Management System</h1>
+                        <p class="projectdesc">A simple Hotel Management system coded in C# that implements the following:</p>
+                        <ul class="projectlist">
+                            <li>Dashboard functionality that includes real-time overview of key metrics like registered guest count, 
+                                room inventory, ongoing reservations, and active employees.
+                            </li>
+                            <li>Guest management system enabling addition, deletion, and search functions.</li>
+                            <li>Room management system that efficiently manages hotel rooms and their corresponding room types.</li>
+                            <li>Reservation system that allows users to add, delete, and search for bookings.</li>
+                            <li>Employee management system.</li>
+                            <li>Accurate error detection for all above functionalities. </li>
+                            <li>Robust Database design using SQL to efficiently store and manage hotel data.</li>
+                        </ul>
+                        <div class="date">Spring 2023</div>
+                    </div>
+                </div>
+                <div class="project">
+                    <iframe class="video" src="https://www.youtube.com/embed/8EIqdYr7Jqc?si=DiMEu7_5yKjh34Fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="titlecontainer">
+                        <h1 class="projecttitle">Calpal - Instagram Clone</h1>
+                        <p class="projectdesc">A comprehensive social media platform emulating core Instagram functionalities using Python, Django, and Bulma.</p>
+                        <ul class="projectlist">
+                            <li>Implemented user registration and authentication using SQLLite.</li>
+                            <li>Enabled users to create, edit, and delete posts, incorporating an intuitive UI for seamless user 
+                                experience.</li>
+                            <li>Designed a real-time comment system, allowing users to add, edit, and delete comments on posts.</li>
+                            <li>Incorporated a user search tab, allowing users to follow, view, and comment on each other's posts.</li>
+                            <li>Implemented a user profile page, showing important statistics like number of posts and followers.</li>
+                        </ul>
+                        <div class="date">Winter 2022</div>
+                    </div>
+                </div>
+                <div class="project">
+                    <iframe class="video" src="https://www.youtube.com/embed/jejqFtkXXbo?si=IhUYzz9ij-HZygWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="titlecontainer">
+                        <h1 class="projecttitle">Weather App</h1>
+                        <p class="projectdesc">A simple weather app coded in Python.</p>
+                        <ul class="projectlist">
+                            <li>Utilizes an open-source API to fetch real-time weather data.</li>
+                            <li>Integrated functionality to display weather and temperatures in both Fahrenheit and Celsius.</li>
+                            <li>Uses Python's Tkinter for the graphical user interface, ensuring a user-friendly experience.</li>
+                        </ul>
+                    </div>
+                    <div class="date">Fall 2022</div>
+                </div>
+            </div>
+        <div style="background-color: #5B5F97; padding-bottom: 20px; padding-top: 30px;"></div>
+        </div>
+        <div id="menupanel">
+            <button class="tablinks" onclick="loadTab('home.html')">Home</button>
+            <button class="tablinks active" onclick="loadTab('portfolio.html')">Portfolio</button>
+            <button class="tablinks" onclick="loadTab('about.html')">About</button>
+            <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+        </div>
+    </div>
+    <script src="fade.js"></script>
+    <script src="script.js"></script>
+    <script src="toggleMenuButton.js"></script>
+    <script src="changeTabBar.js"></script>
+</body>
+</html>
