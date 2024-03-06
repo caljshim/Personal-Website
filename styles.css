@@ -139,6 +139,7 @@
     top: 35px;
     line-height: 30px;
     transition: all 0.4s;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 450px) {
@@ -197,6 +198,7 @@
     font-family: 'Bodoni Moda';
     font-size: 75px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .personal-description{
@@ -406,6 +408,7 @@
     font-family: 'Bodoni Moda', sans-serif;
     color:#373737;
     font-size: 70px;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 1150px){
@@ -529,6 +532,7 @@
     margin-top: 0px;
     font-family: 'Bodoni Moda';
     color: white;
+    font-weight: 700;
 }
 
 .projectdesc {
