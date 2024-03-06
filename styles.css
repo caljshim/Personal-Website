@@ -300,9 +300,9 @@
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     #aboutimg {
-        width: 1000px;
+        width: 1200px;
     }
     .bottomhalf {
         padding: 0px;
