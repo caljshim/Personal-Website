@@ -30,6 +30,7 @@ function clickMenu() {
             document.querySelector("#tab").style.height = "80px";
             document.querySelector(".calebshim").style.fontSize = "20px";
             document.querySelector(".calebshim").style.top = "20px";
+            document.querySelector(".calebshim").style.lineHeight = "20px";
             document.querySelector(".tabcontainer").style.margin = "25px 0px";
             document.querySelector("#menubtn").style.top = "25px";
         }
@@ -41,6 +42,7 @@ function clickMenu() {
         document.querySelector("#tab").style.height = "130px";
         document.querySelector(".calebshim").style.fontSize = "30px";
         document.querySelector(".calebshim").style.top = "35px";
+        document.querySelector(".calebshim").style.lineHeight = "30px";
         document.querySelector(".tabcontainer").style.margin = "50px 0px";
         document.querySelector("#menubtn").style.top = "50px";
     }

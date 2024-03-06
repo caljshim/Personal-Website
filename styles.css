@@ -44,6 +44,7 @@
 
 .tablinks {
     background-color: inherit;
+    color: black;
     border: none;
     cursor: pointer;
     transition: 0.3s;
@@ -129,13 +130,21 @@
 .calebshim {
     margin: 0px;
     position: absolute;
-    font-family: 'Bodoni';
+    font-family: 'Bodoni Moda', sans-serif;
     text-align: left;
     font-size: 30px;
     color: black;
     left: 30px;
     top: 35px;
-    transition: font-size 0.4s, top 0.4s;
+    line-height: 30px;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 450px) {
+    #menupanel {
+        width: 100%;
+        right: -100%;
+    }
 }
 
 /* Home page */
@@ -184,7 +193,7 @@
     animation-fill-mode: forwards;
     color: white;
     padding-left: 60px;
-    font-family: 'Bodoni';
+    font-family: 'Bodoni Moda';
     font-size: 75px;
     margin-bottom: 10px;
 }
@@ -193,7 +202,7 @@
     opacity: 0;
     padding-left: 70px;
     color: white;
-    font-family: 'Bodoni';
+    font-family: 'Bodoni Moda';
     font-size: 18px;
     animation: fadeIn ease 2s;
     animation-delay: 1s;
@@ -252,6 +261,29 @@
     }
 }
 
+@media screen and (max-width: 453px){
+    .selfportrait{
+        height: 100%;
+        width: auto;
+    }
+    .falling-text {
+        padding-left: 40px;
+        padding-top: 40px;
+        font-size: 50px;
+    }
+    .personal-description {
+        padding-left: 50px;
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+    #homeportfoliobutton {
+        margin-left: 50px;
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 150px;
+    }
+}
+
 /*About me page */
 .aboutcontainer{
     display: grid;
@@ -302,7 +334,7 @@
 
 @media screen and (max-width: 1200px) {
     #aboutimg {
-        width: 1200px;
+        width: 1000px;
     }
     .bottomhalf {
         padding: 0px;
@@ -337,6 +369,22 @@
     margin: 0px 16px;
 }
 
+@media screen and (max-width: 506px){
+    .hello{
+        font-size: 65px;
+    }
+    #hand{
+        width: 65px;
+        margin-top: 25px;
+    }
+    .aboutdescription {
+        font-size: 16px;
+    }
+    .socialsicon {
+        width: 27px;
+    }
+}
+
 /* Contact page */
 .contactbox{
     display: flex;
@@ -354,7 +402,7 @@
     align-self: flex-start;
     margin-left: 9.5%;
     margin-bottom: 30px;
-    font-family: 'Bodoni', sans-serif;
+    font-family: 'Bodoni Moda', sans-serif;
     color:#373737;
     font-size: 70px;
 }
@@ -478,7 +526,7 @@
 .projecttitle {
     margin-left: 40px;
     margin-top: 0px;
-    font-family: 'Bodoni';
+    font-family: 'Bodoni Moda';
     color: white;
 }
 
@@ -565,12 +613,4 @@
     100%{
         opacity: 1;
     }
-}
-
-@font-face {
-    font-family: 'Bodoni';
-    src: url('fonts/bodonimoda-variablefont_opszwght-webfont.woff') format('woff'),
-        url('bodonimoda-variablefont_opszwght-webfont.woff2') format('woff2');
-    font-style: normal;
-    font-weight: normal;
 }
