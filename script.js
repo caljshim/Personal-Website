@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded'), function(){
+document.addEventListener('DOMContentLoaded'), (event) => {
     document.querySelector('.falling-text').classList.add('animate');
 }
 
