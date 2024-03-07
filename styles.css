@@ -131,7 +131,7 @@
 .calebshim {
     margin: 0px;
     position: absolute;
-    font-family: 'Bodoni Moda', sans-serif;
+    font-family: 'Bodoni', sans-serif;
     text-align: left;
     font-size: 30px;
     color: black;
@@ -195,7 +195,7 @@
     animation-fill-mode: forwards;
     color: white;
     padding-left: 60px;
-    font-family: 'Bodoni Moda';
+    font-family: 'Bodoni';
     font-size: 75px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -206,7 +206,7 @@
     padding-left: 70px;
     padding-right: 70px;
     color: white;
-    font-family: 'Bodoni Moda';
+    font-family: 'Bodoni';
     font-size: 18px;
     animation: fadeIn ease 2s;
     animation-delay: 1s;
@@ -406,7 +406,7 @@
     align-self: flex-start;
     margin-left: 8.5%;
     margin-bottom: 30px;
-    font-family: 'Bodoni Moda', sans-serif;
+    font-family: 'Bodoni', sans-serif;
     color:#373737;
     font-size: 70px;
     font-weight: 700;
@@ -538,7 +538,7 @@
 .projecttitle {
     margin-left: 40px;
     margin-top: 0px;
-    font-family: 'Bodoni Moda';
+    font-family: 'Bodoni';
     color: white;
     font-weight: 700;
 }
@@ -626,4 +626,11 @@
     100%{
         opacity: 1;
     }
+}
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url('fonts/bodonimoda-variablefont_opszwght-webfont.woff2') format('woff2'),
+         url('fonts/bodonimoda-variablefont_opszwght-webfont.woff') format('woff');
+    /* Add more src definitions for other formats if needed */
 }
