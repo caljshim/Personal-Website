@@ -11,6 +11,7 @@
     margin-left: 70px;
     font-family: "Nunito", sans-serif;
     transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
     animation: fadeIn ease 2s;
     animation-delay: 2s;
     animation-iteration-count: 1;
@@ -33,14 +34,16 @@
     background-color: white;
     text-align: center;
     width: 100%;
-    transition: 0.4s;
+    transition: height 0.4s ease;
+    -webkit-transition: height 0.4s ease;
 }
 
 .tabcontainer {
     display: flex;
     justify-content: center;
     margin: 50px 0px;
-    transition: 0.4s;
+    transition: margin 0.4s ease, margin-top 0.4s ease;
+    -webkit-transition: margin 0.4s ease, margin-top 0.4s ease;
 }
 
 .tablinks {
@@ -48,7 +51,6 @@
     color: black;
     border: none;
     cursor: pointer;
-    transition: 0.3s;
     margin: 0px 50px;
     position: relative;
     display: inline-block;
@@ -68,6 +70,7 @@
     height: 2.60px;
     background-color: black;
     transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
     opacity: 0;
     border-radius: 20px;
 }
@@ -83,7 +86,8 @@
     display: none;
     border-top: none;
     margin-top: 130px;
-    transition: 0.4s;
+    transition: margin-top 0.4s ease;
+    -webkit-transition: margin-top 0.4s ease;
 }
 
 #home{
@@ -96,7 +100,8 @@
     position: absolute;
     right: 30px;
     width: 26px;
-    transition: top 0.4s;
+    transition: top 0.4s ease;
+    -webkit-transition: top 0.4s ease;
 }
 
 #menubtn:hover {
@@ -114,6 +119,7 @@
     height: 100vh;
     background-color: white;
     transition: right 0.3s ease;
+    -webkit-transition: right 0.3s ease;
     text-align: center;
     padding-top: 30px;
 }
@@ -132,14 +138,16 @@
     margin: 0px;
     position: absolute;
     font-family: 'Bodoni', sans-serif;
+    font-optical-sizing: auto;
     text-align: left;
     font-size: 30px;
     color: black;
     left: 30px;
     top: 35px;
     line-height: 30px;
-    transition: all 0.4s;
-    font-weight: 700;
+    transition: font-size 0.4s ease, top 0.4s ease, line-height 0.4s ease;
+    -webkit-transition: font-size 0.4s ease, top 0.4s ease, line-height 0.4s ease;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 450px) {
@@ -409,7 +417,7 @@
     font-family: 'Bodoni', sans-serif;
     color:#373737;
     font-size: 70px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 1150px){
@@ -456,6 +464,7 @@
     font-family: "Nunito", sans-serif;
     font-size: 16px;
     transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
     color: white; 
     background-color: black; 
     align-self: flex-start; 
@@ -506,6 +515,7 @@
 .project {
     opacity: 0;
     transition: opacity 1s ease, transform 1s ease;
+    -webkit-transition: opacity 1s ease, transform 1s ease;
     transform: translateY(40px);
     position: relative;
     display: flex;
@@ -540,7 +550,7 @@
     margin-top: 0px;
     font-family: 'Bodoni';
     color: white;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .projectdesc {
