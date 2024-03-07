@@ -204,6 +204,7 @@
 .personal-description{
     opacity: 0;
     padding-left: 70px;
+    padding-right: 70px;
     color: white;
     font-family: 'Bodoni Moda';
     font-size: 18px;
@@ -403,7 +404,7 @@
 
 #contactboxlabel {
     align-self: flex-start;
-    margin-left: 9.5%;
+    margin-left: 8.5%;
     margin-bottom: 30px;
     font-family: 'Bodoni Moda', sans-serif;
     color:#373737;
@@ -419,7 +420,7 @@
 
 .inputlabel {
     align-self: flex-start;
-    margin-left: 9.5%;
+    margin-left: 9%;
     margin-bottom: 0px;
     font-family: 'Nunito', sans-serif;
     color:#373737;
@@ -458,7 +459,7 @@
     color: white; 
     background-color: black; 
     align-self: flex-start; 
-    margin-left: 9%; 
+    margin-left: 8.5%; 
     margin-top: 30px; 
     padding: 15px;
     margin-bottom: 20px;
@@ -475,6 +476,13 @@
 @media screen and (max-width: 900px){
     #contactboxlabel{
         font-size: 40px;
+        margin-left: 8%;
+    }
+    .inputlabel {
+        margin-left: 6%;
+    }
+    #contactbutton{
+        margin-left: 6%;
     }
 }
 
