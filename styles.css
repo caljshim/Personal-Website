@@ -631,6 +631,7 @@
 @font-face {
     font-family: 'Bodoni';
     src: url('fonts/bodonimoda-variablefont_opszwght-webfont.woff2') format('woff2'),
-         url('fonts/bodonimoda-variablefont_opszwght-webfont.woff') format('woff');
+         url('fonts/bodonimoda-variablefont_opszwght-webfont.woff') format('woff'),
+         url('fonts/BodoniFont.ttf') format('truetype');
     /* Add more src definitions for other formats if needed */
 }
