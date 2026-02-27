@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Shim | ReminderBot SMS Alerts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+<body style="margin:0; padding:0;">
+    <div class="page">
+        <div id="tab">
+            <h1 class="calebshim">Caleb<br>Shim.</h1>
+            <div class="tabcontainer">
+                <button class="tablinks" onclick="loadTab('index.html')">Home</button>
+                <button class="tablinks" onclick="loadTab('portfolio.html')">Portfolio</button>
+                <button class="tablinks" onclick="loadTab('about.html')">About</button>
+                <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+                <img onclick="clickMenu()" id="menubtn" src="images/menu.png" alt="menu button">
+            </div>
+        </div>
+
+        <div id="home" class="tabcontent" style="display: block;">
+            <div class="portfolioheader" style="padding-top: 50px; padding-bottom: 50px;">
+                <h1 style="font-family: 'Bodoni'; font-size: 56px; color: white; margin: 0;">ReminderBot SMS Alerts</h1>
+            </div>
+
+            <div class="projectscontainer" style="padding-bottom: 35px;">
+                <div class="project show" style="opacity: 1; transform: translateY(0);">
+                    <div class="titlecontainer">
+                        <h1 class="projecttitle">ReminderBot SMS Alerts</h1>
+                        <p class="projectdesc">ReminderBot provides automated SMS reminder messages.</p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">How to Opt In</h2>
+                        <p class="projectdesc">To receive reminder messages:</p>
+                        <p class="projectdesc"><strong>Text START to +1-414-284-7579</strong></p>
+                        <p class="projectdesc">By texting START to this number, you consent to receive automated SMS reminder messages from ReminderBot.</p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">Message Details</h2>
+                        <ul class="projectlist">
+                            <li>Message frequency varies</li>
+                            <li>Message &amp; data rates may apply</li>
+                            <li>Messages are sent via automated system</li>
+                            <li>Reply STOP to opt out at any time</li>
+                            <li>Reply HELP for assistance</li>
+                        </ul>
+
+                        <p class="projectdesc">
+                            For more information, please review our
+                            <a href="privacy.html" style="color: white; font-weight: bold;">Privacy Policy</a>
+                            and
+                            <a href="terms.html" style="color: white; font-weight: bold;">Terms of Service</a>
+                            below.
+                        </p>
+                    </div>
+                    <div class="date">SMS</div>
+                </div>
+            </div>
+
+            <div style="background-color: #5B5F97; padding-bottom: 25px;"></div>
+        </div>
+
+        <div id="menupanel">
+            <button class="tablinks" onclick="loadTab('index.html')">Home</button>
+            <button class="tablinks" onclick="loadTab('portfolio.html')">Portfolio</button>
+            <button class="tablinks" onclick="loadTab('about.html')">About</button>
+            <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+        </div>
+    </div>
+
+    <script src="fade.js"></script>
+    <script src="script.js"></script>
+    <script src="toggleMenuButton.js"></script>
+    <script src="changeTabBar.js"></script>
+</body>
+</html>

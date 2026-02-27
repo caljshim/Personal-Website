@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Shim | Terms of Service</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+<body style="margin:0; padding:0;">
+    <div class="page">
+        <div id="tab">
+            <h1 class="calebshim">Caleb<br>Shim.</h1>
+            <div class="tabcontainer">
+                <button class="tablinks" onclick="loadTab('index.html')">Home</button>
+                <button class="tablinks" onclick="loadTab('portfolio.html')">Portfolio</button>
+                <button class="tablinks" onclick="loadTab('about.html')">About</button>
+                <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+                <img onclick="clickMenu()" id="menubtn" src="images/menu.png" alt="menu button">
+            </div>
+        </div>
+
+        <div id="home" class="tabcontent" style="display: block;">
+            <div class="portfolioheader" style="padding-top: 50px; padding-bottom: 50px;">
+                <h1 style="font-family: 'Bodoni'; font-size: 56px; color: white; margin: 0;">Terms of Service</h1>
+                <p style="font-family: 'Nunito'; font-size: 20px; color: white; margin-top: 10px;">ReminderBot messaging terms.</p>
+            </div>
+
+            <div class="projectscontainer" style="padding-bottom: 35px;">
+                <div class="project show" style="opacity: 1; transform: translateY(0);">
+                    <div class="titlecontainer">
+                        <h1 class="projecttitle">Terms of Service</h1>
+                        <p class="projectdesc">By opting in to receive SMS messages from ReminderBot, you agree to the following terms.</p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">Service Description</h2>
+                        <p class="projectdesc">ReminderBot provides automated SMS reminder messages based on user opt-in.</p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">Message Frequency</h2>
+                        <p class="projectdesc">Message frequency varies depending on user settings.</p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">Charges</h2>
+                        <p class="projectdesc">Message and data rates may apply according to your mobile carrier plan.</p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">Opt-Out</h2>
+                        <p class="projectdesc">You may opt out at any time by replying:</p>
+                        <p class="projectdesc"><strong>STOP</strong></p>
+                        <p class="projectdesc">After opting out, you will no longer receive messages.</p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">Help</h2>
+                        <p class="projectdesc">For assistance, reply:</p>
+                        <p class="projectdesc"><strong>HELP</strong></p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">Carrier Disclaimer</h2>
+                        <p class="projectdesc">Carriers are not liable for delayed or undelivered messages.</p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">Changes</h2>
+                        <p class="projectdesc">We reserve the right to modify these terms at any time.</p>
+                    </div>
+                    <div class="date">Terms</div>
+                </div>
+            </div>
+
+            <div style="background-color: #5B5F97; padding-bottom: 25px;"></div>
+        </div>
+
+        <div id="menupanel">
+            <button class="tablinks" onclick="loadTab('index.html')">Home</button>
+            <button class="tablinks" onclick="loadTab('portfolio.html')">Portfolio</button>
+            <button class="tablinks" onclick="loadTab('about.html')">About</button>
+            <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+        </div>
+    </div>
+
+    <script src="fade.js"></script>
+    <script src="script.js"></script>
+    <script src="toggleMenuButton.js"></script>
+    <script src="changeTabBar.js"></script>
+</body>
+</html>

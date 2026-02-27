@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Shim | Privacy Policy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+<body style="margin:0; padding:0;">
+    <div class="page">
+        <div id="tab">
+            <h1 class="calebshim">Caleb<br>Shim.</h1>
+            <div class="tabcontainer">
+                <button class="tablinks" onclick="loadTab('index.html')">Home</button>
+                <button class="tablinks" onclick="loadTab('portfolio.html')">Portfolio</button>
+                <button class="tablinks" onclick="loadTab('about.html')">About</button>
+                <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+                <img onclick="clickMenu()" id="menubtn" src="images/menu.png" alt="menu button">
+            </div>
+        </div>
+
+        <div id="home" class="tabcontent" style="display: block;">
+            <div class="portfolioheader" style="padding-top: 50px; padding-bottom: 50px;">
+                <h1 style="font-family: 'Bodoni'; font-size: 56px; color: white; margin: 0;">Privacy Policy</h1>
+                <p style="font-family: 'Nunito'; font-size: 20px; color: white; margin-top: 10px;">ReminderBot privacy details.</p>
+            </div>
+
+            <div class="projectscontainer" style="padding-bottom: 35px;">
+                <div class="project show" style="opacity: 1; transform: translateY(0);">
+                    <div class="titlecontainer">
+                        <h1 class="projecttitle">Privacy Policy</h1>
+                        <p class="projectdesc"><strong>Effective Date:</strong> [Insert Date]</p>
+                        <p class="projectdesc">ReminderBot respects your privacy.</p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">Information We Collect</h2>
+                        <p class="projectdesc">We collect:</p>
+                        <ul class="projectlist">
+                            <li>Phone number provided during opt-in</li>
+                            <li>Messaging consent records</li>
+                            <li>Message interaction logs (STOP, HELP responses)</li>
+                        </ul>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">How We Use Information</h2>
+                        <p class="projectdesc">We use your phone number solely to:</p>
+                        <ul class="projectlist">
+                            <li>Send reminder messages requested by you</li>
+                            <li>Process opt-out requests</li>
+                            <li>Respond to HELP requests</li>
+                        </ul>
+                        <p class="projectdesc">We do not sell, rent, or share personal information with third parties for marketing purposes.</p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">Data Retention</h2>
+                        <p class="projectdesc">We retain opt-in and opt-out records as required for carrier compliance.</p>
+
+                        <h2 class="projecttitle" style="font-size: 36px; margin-top: 8px;">Contact</h2>
+                        <p class="projectdesc">For privacy questions, contact:<br>caljshim@gmail.com</p>
+                    </div>
+                    <div class="date">Policy</div>
+                </div>
+            </div>
+
+            <div style="background-color: #5B5F97; padding-bottom: 25px;"></div>
+        </div>
+
+        <div id="menupanel">
+            <button class="tablinks" onclick="loadTab('index.html')">Home</button>
+            <button class="tablinks" onclick="loadTab('portfolio.html')">Portfolio</button>
+            <button class="tablinks" onclick="loadTab('about.html')">About</button>
+            <button class="tablinks" onclick="loadTab('contact.html')">Contact</button>
+        </div>
+    </div>
+
+    <script src="fade.js"></script>
+    <script src="script.js"></script>
+    <script src="toggleMenuButton.js"></script>
+    <script src="changeTabBar.js"></script>
+</body>
+</html>
